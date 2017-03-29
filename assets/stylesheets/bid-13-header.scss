@@ -1,0 +1,62 @@
+#main-outlet {
+  padding-top: 105px;
+}
+
+.d-header {
+  background: black;
+  height: 88px;
+  border-top: 3px solid #39b44a;
+
+  #site-logo {
+    margin: 5px;
+    height: 67px;
+    max-height: 67px;
+  }
+
+  ul.icons[role=navigation] {
+    padding-top: 28px;
+  }
+
+  button.widget-button {
+    float: right;
+    margin: 33px 5px 0;
+  }
+}
+
+.bid-13-header {
+  float: left;
+  padding-top: 28px;
+
+  .svg-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .links {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+  }
+
+  .link {
+    &:hover, &#forum {
+      .svg-icon, .link-name { color: #39b44a; }
+    }
+    display: flex;
+    display: -webkit-flex;
+    position: relative;
+    bottom: 16px;
+    padding: 0 16px;
+  }
+
+  .link-name {
+    color: #adadad;
+    font-size: 19px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .bid-13-header { display: none; }
+}
