@@ -4,4 +4,3 @@
 # url: https://github.com/gdpelican/discourse-bid13-header
 
 register_asset "stylesheets/bid-13-header.scss"
-register_asset "images/bid13-logo.svg"

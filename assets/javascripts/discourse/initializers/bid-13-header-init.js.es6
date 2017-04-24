@@ -13,6 +13,11 @@ export default {
           href: "https://www.bid13.com/"
         },
       })
+
+      Ember.run.scheduleOnce('afterRender', function() {
+        let $header = $('.bid-13-header')
+        $header.html($header.html())
+      })
     })
   }
 }
